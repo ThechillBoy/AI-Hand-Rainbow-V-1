@@ -8,6 +8,8 @@ Everything except the machine-learning inference is rendered with raw OpenGL
 (GLFW + PyOpenGL) as a shader-lit overlay on the live camera feed, so the beam,
 the glow and the sparks all composite on top of the video in a single window.
 
+![Neon Rainbow Laser Hands](assets/demo.png)
+
 ---
 
 ## Features
@@ -207,6 +209,8 @@ AI-Hand-Rainbow/
 ├── requirements.txt         # Python dependencies
 ├── .gitignore               # Ignores venvs, caches and the downloaded model
 ├── README.md                # This file
+├── assets/
+│   └── demo.png             # Screenshot of the app in action
 └── hand_landmarker.task     # MediaPipe model - auto-downloaded, NOT committed
 ```
 
